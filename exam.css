@@ -1,0 +1,18 @@
+.rdx{--bg:#f2f9fd;--card:#fff;--ink:#12305a;--acc:#0e7f92;--bd:#cfe3ee;margin:0;font:16px/1.5 system-ui,sans-serif;background:var(--bg);color:var(--ink)}
+.rdx.dark{--bg:#0a1a33;--card:#10284a;--ink:#e6f6fb;--acc:#35d0e6;--bd:#27456e}
+.rdx *{box-sizing:border-box}.sr,.skip:not(:focus){position:absolute;left:-9999px}
+.rdx-top{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:10px 16px;background:var(--card);border-bottom:1px solid var(--bd);flex-wrap:wrap}
+.logo{color:var(--acc);font-size:1.3rem}.pill{border:1px solid var(--acc);border-radius:99px;padding:2px 10px;font-size:.8rem}
+.rdx-grid{display:grid;grid-template-columns:240px 1fr 200px;gap:16px;padding:16px}
+.card,.rdx-side{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:16px;box-shadow:0 1px 4px #0001}
+.rdx button,.rdx select,.rdx input{font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--acc);border-radius:8px;padding:6px 12px;margin:2px;cursor:pointer}
+.rdx button.pri{background:var(--acc);color:#fff}.rdx :focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+.grid{display:flex;flex-wrap:wrap;gap:4px}.grid button{width:40px;padding:4px}
+.cur{outline:3px solid var(--ink)}.ans{background:var(--acc)!important;color:#fff!important}.mk{border-style:dashed!important;border-width:3px!important}
+.opt{display:block;width:100%;text-align:left}.opt.sel{background:var(--acc);color:#fff}.ok{border-color:#1a9a4a!important;background:#d9f5e3!important;color:#064}.bad{border-color:#c0392b!important;background:#fbe0dc!important;color:#900}
+.ring-bg{fill:none;stroke:var(--bd);stroke-width:3}.ring{fill:none;stroke:var(--acc);stroke-width:3;transform:rotate(-90deg);transform-origin:center}
+.bar{display:block;height:10px;background:var(--bd);border-radius:5px}.bar i{display:block;height:100%;background:var(--acc);border-radius:5px}
+.exp{border-left:4px solid var(--acc);padding-left:10px;margin-top:10px}
+@media(max-width:900px){.rdx-grid{grid-template-columns:1fr}.rdx-right{order:-1}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+@media print{.rdx-top,.rdx-side,.rdx-right,button{display:none}}

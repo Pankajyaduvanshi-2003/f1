@@ -1,0 +1,309 @@
+{
+ "schema": 1,
+ "questions": [
+  {
+   "id": "PHY-001",
+   "type": "single",
+   "topic": "Atomic structure",
+   "difficulty": "basic",
+   "text": "Which shell has the highest electron binding energy in tungsten?",
+   "answer": 0,
+   "explanation": "The K shell is closest to the nucleus, so its electrons are the most tightly bound.",
+   "marks": 1,
+   "status": "published",
+   "source": "Original question; verify against standard physics texts",
+   "options": [
+    "K",
+    "L",
+    "M",
+    "N"
+   ]
+  },
+  {
+   "id": "PHY-002",
+   "type": "single",
+   "topic": "X-ray production",
+   "difficulty": "basic",
+   "text": "Which process produces most of the diagnostic x-ray beam spectrum?",
+   "answer": 1,
+   "explanation": "Bremsstrahlung gives the continuous spectrum and dominates the diagnostic beam.",
+   "marks": 1,
+   "status": "published",
+   "source": "Original question; verify against standard physics texts",
+   "options": [
+    "Characteristic radiation",
+    "Bremsstrahlung",
+    "Pair production",
+    "Coherent scattering"
+   ]
+  },
+  {
+   "id": "PHY-003",
+   "type": "single",
+   "topic": "X-ray production",
+   "difficulty": "intermediate",
+   "text": "Increasing kVp (all else equal) mainly does what to the beam?",
+   "answer": 1,
+   "explanation": "Higher kVp raises maximum and mean photon energy and increases output (roughly with kVp squared).",
+   "marks": 1,
+   "status": "published",
+   "source": "Original question; verify against standard physics texts",
+   "options": [
+    "Reduces maximum photon energy",
+    "Increases beam quantity and mean energy",
+    "Reduces tube output",
+    "Changes only focal spot size"
+   ]
+  },
+  {
+   "id": "PHY-004",
+   "type": "single",
+   "topic": "Interactions",
+   "difficulty": "intermediate",
+   "text": "Photoelectric absorption probability varies approximately as:",
+   "answer": 0,
+   "explanation": "Probability scales roughly with Z cubed and inversely with E cubed, giving bone/soft-tissue contrast at low kVp.",
+   "marks": 1,
+   "status": "published",
+   "source": "Original question; verify against standard physics texts",
+   "options": [
+    "Z^3/E^3",
+    "Z/E",
+    "E^2",
+    "It is independent of Z"
+   ]
+  },
+  {
+   "id": "PHY-005",
+   "type": "single",
+   "topic": "Interactions",
+   "difficulty": "basic",
+   "text": "Compton scattering mainly depends on:",
+   "answer": 1,
+   "explanation": "Compton interaction depends on electron density, which is roughly constant per gram across tissues (except hydrogen).",
+   "marks": 1,
+   "status": "published",
+   "source": "Original question; verify against standard physics texts",
+   "options": [
+    "Atomic number cubed",
+    "Electron density",
+    "Tube current",
+    "Focal spot size"
+   ]
+  },
+  {
+   "id": "PHY-006",
+   "type": "single",
+   "topic": "Interactions",
+   "difficulty": "intermediate",
+   "text": "Pair production has a threshold photon energy of:",
+   "answer": 1,
+   "explanation": "Two electron rest masses (2 x 511 keV) are needed: 1.022 MeV.",
+   "marks": 1,
+   "status": "published",
+   "source": "Original question; verify against standard physics texts",
+   "options": [
+    "511 keV",
+    "1.022 MeV",
+    "100 keV",
+    "2.044 MeV"
+   ]
+  },
+  {
+   "id": "PHY-007",
+   "type": "single",
+   "topic": "Radiation protection",
+   "difficulty": "basic",
+   "text": "The inverse-square law states that intensity from a point source is:",
+   "answer": 1,
+   "explanation": "For a point source, intensity falls as 1/d^2.",
+   "marks": 1,
+   "status": "published",
+   "source": "Original question; verify against standard physics texts",
+   "options": [
+    "Proportional to distance",
+    "Inversely proportional to distance squared",
+    "Independent of distance",
+    "Proportional to distance squared"
+   ],
+   "formula": "I2 = I1 (d1/d2)^2"
+  },
+  {
+   "id": "PHY-008",
+   "type": "numeric",
+   "topic": "Radiation protection",
+   "difficulty": "intermediate",
+   "text": "Air kerma rate is 80 uGy/h at 1 m. What is it at 2 m (uGy/h)?",
+   "answer": 20,
+   "explanation": "I2 = 80 x (1/2)^2 = 20 uGy/h.",
+   "marks": 1,
+   "status": "published",
+   "source": "Original question; verify against standard physics texts",
+   "formula": "I2 = I1 (d1/d2)^2",
+   "unit": "uGy/h",
+   "tolerance": 0.01
+  },
+  {
+   "id": "PHY-009",
+   "type": "numeric",
+   "topic": "Radiation protection",
+   "difficulty": "intermediate",
+   "text": "A beam of intensity 100 passes through exactly 2 HVLs. What is the transmitted intensity?",
+   "answer": 25,
+   "explanation": "Each HVL halves intensity: 100 x 0.5^2 = 25.",
+   "marks": 1,
+   "status": "published",
+   "source": "Original question; verify against standard physics texts",
+   "formula": "I = I0 (1/2)^n",
+   "tolerance": 0.01
+  },
+  {
+   "id": "PHY-010",
+   "type": "single",
+   "topic": "Dosimetry",
+   "difficulty": "basic",
+   "text": "The SI unit of absorbed dose is:",
+   "answer": 1,
+   "explanation": "Absorbed dose is in gray (J/kg); sievert is for equivalent and effective dose.",
+   "marks": 1,
+   "status": "published",
+   "source": "Original question; verify against standard physics texts",
+   "options": [
+    "Sievert",
+    "Gray",
+    "Becquerel",
+    "Coulomb per kg"
+   ]
+  },
+  {
+   "id": "PHY-011",
+   "type": "single",
+   "topic": "Dosimetry",
+   "difficulty": "intermediate",
+   "text": "Effective dose is the sum of organ equivalent doses weighted by:",
+   "answer": 1,
+   "explanation": "Effective dose = sum of (tissue weighting factor x organ equivalent dose), in Sv.",
+   "marks": 1,
+   "status": "published",
+   "source": "Original question; verify against standard physics texts",
+   "options": [
+    "Radiation weighting factors",
+    "Tissue weighting factors",
+    "Linear energy transfer",
+    "HVL"
+   ]
+  },
+  {
+   "id": "PHY-012",
+   "type": "single",
+   "topic": "CT",
+   "difficulty": "intermediate",
+   "text": "Air has an approximate CT number of:",
+   "answer": 1,
+   "explanation": "Water is 0 HU and air about -1000 HU on the Hounsfield scale.",
+   "marks": 1,
+   "status": "published",
+   "source": "Original question; verify against standard physics texts",
+   "options": [
+    "0 HU",
+    "-1000 HU",
+    "+1000 HU",
+    "-100 HU"
+   ]
+  },
+  {
+   "id": "PHY-013",
+   "type": "single",
+   "topic": "CT",
+   "difficulty": "intermediate",
+   "text": "Narrowing the CT window width will:",
+   "answer": 1,
+   "explanation": "A narrower window maps fewer HU onto the grey scale, raising displayed contrast; stored HU and dose are unchanged.",
+   "marks": 1,
+   "status": "published",
+   "source": "Original question; verify against standard physics texts",
+   "options": [
+    "Reduce displayed contrast",
+    "Increase displayed contrast",
+    "Change stored HU values",
+    "Reduce patient dose"
+   ]
+  },
+  {
+   "id": "PHY-014",
+   "type": "single",
+   "topic": "MRI",
+   "difficulty": "intermediate",
+   "text": "T1 relaxation describes:",
+   "answer": 1,
+   "explanation": "T1 is the time constant of longitudinal recovery; T2 describes transverse decay.",
+   "marks": 1,
+   "status": "published",
+   "source": "Original question; verify against standard physics texts",
+   "options": [
+    "Loss of transverse magnetisation",
+    "Recovery of longitudinal magnetisation",
+    "Gradient switching",
+    "RF heating"
+   ]
+  },
+  {
+   "id": "PHY-015",
+   "type": "multiple",
+   "topic": "MRI",
+   "difficulty": "advanced",
+   "text": "Select all that are MRI safety concerns:",
+   "answer": [
+    0,
+    1,
+    3
+   ],
+   "explanation": "Projectiles, RF heating and acoustic noise are MRI hazards; MRI uses no ionising radiation. Scored all-or-nothing.",
+   "marks": 1,
+   "status": "published",
+   "source": "Original question; verify against standard physics texts",
+   "options": [
+    "Projectile effect",
+    "RF heating",
+    "Ionising radiation dose",
+    "Acoustic noise"
+   ]
+  },
+  {
+   "id": "PHY-016",
+   "type": "single",
+   "topic": "Ultrasound",
+   "difficulty": "intermediate",
+   "text": "The speed of sound assumed by scanners in soft tissue is:",
+   "answer": 1,
+   "explanation": "Scanners assume about 1540 m/s in soft tissue.",
+   "marks": 1,
+   "status": "published",
+   "source": "Original question; verify against standard physics texts",
+   "options": [
+    "330 m/s",
+    "1540 m/s",
+    "4080 m/s",
+    "3000 m/s"
+   ]
+  },
+  {
+   "id": "PHY-017",
+   "type": "single",
+   "topic": "Nuclear medicine",
+   "difficulty": "basic",
+   "text": "The most widely used radionuclide in SPECT is:",
+   "answer": 0,
+   "explanation": "Tc-99m (140 keV gamma, ~6 h half-life) is the SPECT workhorse; F-18 is used in PET.",
+   "marks": 1,
+   "status": "published",
+   "source": "Original question; verify against standard physics texts",
+   "options": [
+    "Tc-99m",
+    "F-18",
+    "Ga-68",
+    "Co-60"
+   ]
+  }
+ ]
+}

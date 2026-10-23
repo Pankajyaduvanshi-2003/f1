@@ -1,0 +1,13 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RadioDx Exams</title><link rel="stylesheet" href="css/exam.css"></head>
+<body class="rdx"><a class="skip" href="#main">Skip to exam</a>
+<header class="rdx-top"><div><b class="logo">RadioDx</b><small> Radiodiagnosis Learning Platform</small></div>
+<span id="crumb">Exams</span><div><span id="status" class="pill">Idle</span>
+<button id="theme" aria-label="Toggle theme">◐</button><button id="full" aria-label="Full screen">⛶</button></div></header>
+<div class="rdx-grid"><nav class="rdx-side" aria-label="Exam collections"><h2>Collections</h2><div id="topics"></div></nav>
+<main id="main" tabindex="-1"><section id="setup" class="card"></section><section id="exam" class="card" hidden></section><section id="result" class="card" hidden></section></main>
+<aside class="rdx-right card" aria-label="Progress"><svg viewBox="0 0 36 36" width="110" role="img" aria-label="Completion"><circle cx="18" cy="18" r="15.9" class="ring-bg"/><circle id="ring" cx="18" cy="18" r="15.9" class="ring" stroke-dasharray="0 100"/></svg>
+<p id="pAns">0 / 0 answered</p><p id="pUn">Unanswered: 0</p><p id="pMk">Marked: 0</p><p id="pTime">Time: –</p></aside></div>
+<dialog id="dlg"><h2>Quiz Summary</h2><div id="sum"></div><div id="sumNav" class="grid"></div><button id="back">Return to test</button> <button id="final" class="pri">Submit test</button></dialog>
+<div id="live" class="sr" aria-live="polite"></div>
+<script src="js/exam.js"></script></body></html>
